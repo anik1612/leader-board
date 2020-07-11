@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leader-Board</title>
+
+    <!-- bootstrap cdn link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <!-- google font link -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- style css link -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body onload="myFunction()">
+    <!-- preloader -->
+    <div id="pre-loader">
+
+    </div>
+
+    <!-- navbar section start from here -->
+    <header class="navbar-section mb-5">
+        <section class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark">
+                <a class="navbar-brand" href="#"><img src="Icon/Group 5.png" width= "40.42px"
+                    height="51px" alt=""> <span class="text-white pt-3 ml-2 font-weight-bold">Idea</span></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item ml-3 active">
+                      <a class="nav-link text-white pt-3" href="#">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item ml-3">
+                      <a class="nav-link text-white pt-3" href="#">About</a>
+                    </li>
+                    <li class="nav-item ml-3">
+                      <a class="nav-link text-white pt-3" href="#">Works</a>
+                    </li>
+                    <li class="nav-item ml-3">
+                      <img width="51px"
+                      height="51px" src="Image/Ellipse.png" alt="">
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </section>
+    </header>
+    <!-- navbar section end here -->
+
+
+    <!-- main section start from here -->
+    <main>
+        <section class="main-section container bg-light mb-5">
+          <!-- top player portion -->
+          <div class="top-player">
+            <h3 class="mb-4">Top Player</h3>
+            <div class="row">
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+              <div class="col-md-4 col-6 d-flex mb-4">
+                <img class="image-fluid" src="Image/Ellipse.png" alt="">
+                <p class="ml-3 pt-3">John Smith</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- top blog portion start from here -->
+          <div class="top-blog mt-4">
+            <h3 class="mb-4">Top Blogs</h3>
+            <div class="row">
+              <div class="col-md-6 col-12 d-flex mb-4">
+                <img class="image-fluid" src="Image/Mask Group.png" alt="">
+                <p class="ml-3 pt-3 font-weight-bold">13 of My Favorite <br> UI/UX Goodies <br> <span class="font-weight-normal" id="by">By</span> <span class="font-weight-normal">Danny Sapio</span> </p>
+              </div>
+              <div class="col-md-6 col-12 d-flex mb-4">
+                <img class="image-fluid" src="Image/Mask Group-1.png" alt="">
+                <p class="ml-3 pt-3 font-weight-bold">13 of My Favorite <br> UI/UX Goodies <br> <span class="font-weight-normal" id="by">By</span> <span class="font-weight-normal">Danny Sapio</span> </p>
+              </div>
+
+              <div class="col-md-6 col-12 d-flex mb-4">
+                <img class="image-fluid" src="Image/Mask Group-5.png" alt="">
+                <p class="ml-3 pt-3 font-weight-bold">13 of My Favorite <br> UI/UX Goodies <br> <span class="font-weight-normal" id="by">By</span> <span class="font-weight-normal">Danny Sapio</span> </p>
+              </div>
+              <div class="col-md-6 col-12 d-flex mb-4">
+                <img class="image-fluid" src="Image/Mask Group-2.png" alt="">
+                <p class="ml-3 pt-3 font-weight-bold">13 of My Favorite <br> UI/UX Goodies <br> <span class="font-weight-normal" id="by">By</span> <span class="font-weight-normal">Danny Sapio</span> </p>
+              </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="latest-course mb-5"> 
+          <div class="container bg-light course">
+            <div class="card-deck">
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+              <div class="card">
+                <img src="..." class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </main>
+        <!-- top blog section end here -->
+    <!-- main section end here -->
+
+    <!-- additional javascript -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+
+
+    <!-- preloader javascript -->
+    <script>
+        var preloader = document.getElementById('pre-loader');
+        function myFunction() {
+            preloader.style.display = 'none';
+        }
+    </script>
+
+
+</body>
+
+</html>
